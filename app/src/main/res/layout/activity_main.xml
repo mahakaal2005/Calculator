@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_img"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/num1"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:layout_marginTop="10dp"
+        android:hint="Enter 1st number"
+        android:inputType="numberDecimal"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/num2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Enter 2nd number"
+        android:inputType="numberDecimal"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:gravity="center"
+        android:text="Result: 0"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="2dp">
+
+        <ImageButton
+            android:id="@+id/clear"
+            android:layout_width="205dp"
+            android:layout_height="91dp"
+            android:background="#00FFFFFF"
+            android:src="@drawable/ac_button" />
+
+
+
+        <ImageButton
+            android:id="@+id/modulous"
+            android:layout_width="91dp"
+            android:layout_height="91dp"
+            android:background="#00FFFFFF"
+            android:src="@drawable/modulous" />
+
+        <ImageButton
+            android:id="@+id/divide"
+            android:layout_width="102dp"
+            android:layout_height="91dp"
+            android:background="#00FFFFFF"
+            android:src="@drawable/divide" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="2dp">
+
+        <ImageButton
+            android:id="@+id/seven"
+            android:layout_width="102dp"
+            android:layout_height="91dp"
+            android:background="#00FFFFFF"
+            android:src="@drawable/seven" />
+
+        <ImageButton
+            android:id="@+id/eight"
+            android:layout_width="102dp"
+            android:layout_height="91dp"
+            android:background="#00FFFFFF"
+            android:src="@drawable/eight" />
+
+        <ImageButton
+            android:id="@+id/nine"
+            android:layout_width="91dp"
+            android:layout_height="91dp"
+            android:background="#00FFFFFF"
+            android:src="@drawable/nine" />
+
+        <ImageButton
+            android:id="@+id/multiply"
+            android:layout_width="102dp"
+            android:layout_height="91dp"
+            android:background="#00FFFFFF"
+            android:src="@drawable/multiply" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="2dp">
+
+        <ImageButton
+            android:id="@+id/four"
+            android:layout_width="102dp"
+            android:layout_height="91dp"
+            android:background="#00FFFFFF"
+            android:src="@drawable/four" />
+
+        <ImageButton
+            android:id="@+id/five"
+            android:layout_width="102dp"
+            android:layout_height="91dp"
+            android:background="#00FFFFFF"
+            android:src="@drawable/five" />
+
+        <ImageButton
+            android:id="@+id/six"
+            android:layout_width="91dp"
+            android:layout_height="91dp"
+            android:background="#00FFFFFF"
+            android:src="@drawable/six" />
+
+        <ImageButton
+            android:id="@+id/minus"
+            android:layout_width="102dp"
+            android:layout_height="91dp"
+            android:background="#00FFFFFF"
+            android:src="@drawable/minus" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="2dp">
+
+        <ImageButton
+            android:id="@+id/one"
+            android:layout_width="102dp"
+            android:layout_height="91dp"
+            android:background="#00FFFFFF"
+            android:src="@drawable/one" />
+
+        <ImageButton
+            android:id="@+id/two"
+            android:layout_width="102dp"
+            android:layout_height="91dp"
+            android:background="#00FFFFFF"
+            android:src="@drawable/two" />
+
+        <ImageButton
+            android:id="@+id/three"
+            android:layout_width="91dp"
+            android:layout_height="91dp"
+            android:background="#00FFFFFF"
+            android:src="@drawable/three" />
+
+        <ImageButton
+            android:id="@+id/ADD"
+            android:layout_width="102dp"
+            android:layout_height="91dp"
+            android:background="#00FFFFFF"
+            android:src="@drawable/plus" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="2dp">
+
+        <ImageButton
+            android:id="@+id/clear1"
+            android:layout_width="102dp"
+            android:layout_height="91dp"
+            android:background="#00FFFFFF"
+            android:src="@drawable/back" />
+
+        <ImageButton
+            android:id="@+id/zero"
+            android:layout_width="102dp"
+            android:layout_height="91dp"
+            android:background="#00FFFFFF"
+            android:src="@drawable/zero" />
+
+        <ImageButton
+            android:id="@+id/dot"
+            android:layout_width="91dp"
+            android:layout_height="91dp"
+            android:background="#00FFFFFF"
+            android:src="@drawable/point" />
+
+        <ImageButton
+            android:id="@+id/equal"
+            android:layout_width="102dp"
+            android:layout_height="91dp"
+            android:background="#00FFFFFF"
+            android:src="@drawable/equals" />
+
+    </LinearLayout>
+
+</LinearLayout>
